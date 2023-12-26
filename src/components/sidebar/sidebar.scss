@@ -1,0 +1,40 @@
+.sidebar {
+    background: rgb(185, 224, 205);
+    width: 80px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    min-height: 500 px;
+
+    .k-logo {
+        display: block;
+        img{
+            display: block;
+            margin: 4px auto;
+            width: 75px;
+            height: auto;
+        }
+    }
+    nav{
+        display: block;
+        text-align: center;
+        height: 210px;
+        top: 50%;
+        margin-top: 60px;
+        width: 100%;
+
+        home-label {
+            
+        }
+        a {
+            display: block;
+            line-height: 51px;
+            height: 51px;
+            position: relative;
+            text-decoration: none;
+            i {
+
+            }
+        }
+    }
+}
