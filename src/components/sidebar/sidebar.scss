@@ -1,9 +1,9 @@
 .sidebar {
-    background: rgb(185, 224, 205);
+    background: rgb(34, 35, 34);
     width: 80px;
     height: 100%;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     min-height: 500 px;
 
     .k-logo {
@@ -15,25 +15,103 @@
             height: auto;
         }
     }
+
+
     nav{
         display: block;
         text-align: center;
         height: 210px;
         top: 50%;
-        margin-top: 60px;
+        margin-top: 80px;
         width: 100%;
 
-        home-label {
-            
-        }
         a {
             display: block;
             line-height: 51px;
-            height: 51px;
+            height: 60px;
             position: relative;
+            top: 50%;
             text-decoration: none;
-            i {
 
+            i {
+                transition: all 0.4s ease-out;
+            }
+
+            &:hover {
+                color: #4d7fc1;
+                svg {
+                    opacity: 0;
+                }
+                &:after {
+                    opacity: 1;
+                }
+            }
+            
+            &:after {
+                content: '';
+                font-size: 16px;
+                letter-spacing: 1px;
+                position: absolute;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                transition: all 0.3s ease-out;
+
+            }
+
+            &:first-child {
+                &::after {
+                    content: 'Home';
+                }
+            }
+            &:nth-child(2) {
+                &::after{
+                    content: "Skills";
+                }
+            }
+            &:nth-child(3){
+                &::after{
+                    content: "About";
+                }
+            }
+            &:nth-child(4){
+                &::after{
+                    content: "Projects";
+                }
+            }
+            &:nth-child(5){
+                &::after{
+                    content: "Contact";
+                }
+            }
+        }
+
+        a.active {
+            svg {
+                color: #ffffff;
+            }
+        }
+    }
+
+    ul{
+        position: absolute;
+        display: block;
+        bottom: 15px;
+        width: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 30px;
+
+        li{
+            a{
+                padding: 15px 10px 10px 0px;
+                display: block;
+                line-height: 15px;
+                &:hover svg{
+                    color: #ffffff;
+                }
             }
         }
     }
