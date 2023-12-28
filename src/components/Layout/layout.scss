@@ -11,4 +11,11 @@
     position: absolute;
     top: 5%;
 
+    opacity: 0;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 0.7s forwards;
+    animation-delay: 0.5s;
+
 }

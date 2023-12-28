@@ -6,7 +6,7 @@ import { faAddressBook, faBriefcase, faEnvelope, faHouseChimney, faWrench } from
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Sidebar = () => (
     <div className='sidebar'>
-        <Link className='k-logo' to="/">
+        <Link className='k-logo' to="/Personal-Portfolio">
             <img src={Logo} alt="k-logo"></img>
         </Link>
         <nav>
