@@ -7,6 +7,11 @@ $primary-color: #ffd700;
 }
 
 @font-face {
+  font-family: 'Mulish', sans-serif;
+  src: url('./assets/fonts/Mulish-Regular.ttf') format('ttf');
+}
+
+@font-face {
   font-family: 'Coolvetica';
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
