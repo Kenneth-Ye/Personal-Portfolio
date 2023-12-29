@@ -10,7 +10,7 @@
     h1 {
         color: #ffffff;
         font-size: 55px;
-        margin: 0;
+        margin-bottom: 10px;
         font-family: "Coolvetica";
         font-weight: 400;
     }
@@ -19,7 +19,49 @@
         font-family: "Mulish", sans-serif;
         font-weight: 350;
         font-size: 27px;
+        margin-bottom: 2px;
     }
+    .typewriter-container {
+        font-family: "Mulish", sans-serif;
+        color: #ffffff;
+        font-weight: 350;
+        font-size: 27px;
+        overflow: hidden;
+    }
+
+
+    .typewriter-container .text {
+        position: relative;
+    }
+
+    .text.sec-text {
+        text-decoration: underline;
+        font-style: italic;
+        color: #5ce9ec;
+    }
+
+    .text.sec-text:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 101%;
+        background-color: #3c5b79;
+        border-left: 2px solid #ffffff;
+        animation: animate 4s steps(12) infinite;
+    }
+
+    @keyframes animate {
+        40%, 60% {
+            left: 100%;
+        }
+        100% {
+            left: 0%
+        }
+    }
+
+
     .contact-link {
         color: #ffffff;
         font-size: 15px;

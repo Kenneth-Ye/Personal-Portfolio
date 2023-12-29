@@ -18,6 +18,19 @@ const Home = () => {
         }
     }, [])
 
+    const [text, setText] = useState("Innovator");
+    const texts = ["Innovator", "Learner", "Student", "Programmer", "Soccer Player"];
+
+    useEffect(() => {
+        let currentTextIndex = 0;
+        const intervalId = setInterval(() => {
+            currentTextIndex = (currentTextIndex + 1) % texts.length;
+            setText(texts[currentTextIndex]);
+        }, 4000); // Change text every 4 seconds
+
+        return () => clearInterval(intervalId); // Clean up the interval on component unmount
+    }, []);
+
 
     return (
         <div className="container home-page">
@@ -28,6 +41,10 @@ const Home = () => {
                 <h2>
                     {description}
                 </h2>
+                <div className="typewriter-container">
+                    <span class="text first-text">and I'm a </span>
+                    <span class="text sec-text">{text}</span>
+                </div>
                 <Link to="/Personal-Portfolio/contact" className="contact-link">Contact Me</Link>
             </div>
         </div>
