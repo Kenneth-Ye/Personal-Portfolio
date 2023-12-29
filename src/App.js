@@ -6,12 +6,10 @@ import About from './components/about/about'
 function App() {
   return (
     <Routes>
-      <Route>
         <Route path="/Personal-Portfolio" element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path="about" element={<About/>}/>
         </Route>
-      </Route>
     </Routes>
   );
 }
