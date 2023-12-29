@@ -45,6 +45,7 @@ const Home = () => {
                     <span class="text first-text">and I'm a </span>
                     <span class="text sec-text">{text}</span>
                 </div>
+                <p>(try hovering over title)</p>
                 <Link to="/Personal-Portfolio/contact" className="contact-link">Contact Me</Link>
             </div>
         </div>
