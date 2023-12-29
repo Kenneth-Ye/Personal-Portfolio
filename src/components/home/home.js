@@ -10,13 +10,12 @@ const Home = () => {
     const introArray = introduction.split("");
     
     useEffect(() => {
-        let timeout =  setTimeout(() => {
+        const timeout =  setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 2500);
+        }, 3000);
         return () => {
             clearTimeout(timeout);
         }
-        //return setTimeout(() => {setLetterClass('text-animate-hover')}, 2500);
     }, [])
 
 
@@ -36,3 +35,4 @@ const Home = () => {
 }
 
 export default Home;
+
