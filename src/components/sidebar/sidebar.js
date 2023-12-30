@@ -10,19 +10,19 @@ const Sidebar = () => (
             <img src={Logo} alt="k-logo"></img>
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/Personal-Portfolio">
+            <NavLink exact="true" to="/Personal-Portfolio" end>
                 <FontAwesomeIcon icon={faHouseChimney} color="#4d7fc1" size='2x'/>
             </NavLink>
-            <NavLink exact="true" activeclassname="active" to="/Personal-Portfolio/skills">
+            <NavLink exact="true" to="/Personal-Portfolio/skills" end>
                 <FontAwesomeIcon icon={faWrench} color="#4d7fc1" size='2x' className='skills-link'/>
             </NavLink>
-            <NavLink exact="true" activeclassname="active" to="/Personal-Portfolio/about">
+            <NavLink exact="true" to="/Personal-Portfolio/about" end>
                 <FontAwesomeIcon icon={faAddressBook} color="#4d7fc1" size='2x' className='about-link'/>
             </NavLink>
-            <NavLink exact="true" activeclassname="active" to="/Personal-Portfolio/projects">
+            <NavLink exact="true" to="/Personal-Portfolio/projects" end>
                 <FontAwesomeIcon icon={faBriefcase} color="#4d7fc1" size='2x' className='project-link'/>
             </NavLink>
-            <NavLink exact="true" activeclassname="active" to="/Personal-Portfolio/contact">
+            <NavLink exact="true" to="/Personal-Portfolio/contact" end>
                 <FontAwesomeIcon icon={faEnvelope} color="#4d7fc1" size='2x' className='contact-link'/>
             </NavLink>
         </nav>
