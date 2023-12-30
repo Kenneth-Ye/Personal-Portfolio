@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.5a224501.css",
+    "main.css": "/Personal-Portfolio/static/css/main.2aee7fcd.css",
     "main.js": "/Personal-Portfolio/static/js/main.5a2c004c.js",
     "static/js/787.ed937df2.chunk.js": "/Personal-Portfolio/static/js/787.ed937df2.chunk.js",
     "static/media/k-logo-transbg.png": "/Personal-Portfolio/static/media/k-logo-transbg.a687303b292b4b875bec.png",
@@ -10,12 +10,12 @@
     "static/media/helvetica-neu.ttf": "/Personal-Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/CoolveticaRg-Regular.woff2": "/Personal-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.5a224501.css.map": "/Personal-Portfolio/static/css/main.5a224501.css.map",
+    "main.2aee7fcd.css.map": "/Personal-Portfolio/static/css/main.2aee7fcd.css.map",
     "main.5a2c004c.js.map": "/Personal-Portfolio/static/js/main.5a2c004c.js.map",
     "787.ed937df2.chunk.js.map": "/Personal-Portfolio/static/js/787.ed937df2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a224501.css",
+    "static/css/main.2aee7fcd.css",
     "static/js/main.5a2c004c.js"
   ]
 }
