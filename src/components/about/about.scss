@@ -1,9 +1,8 @@
 .timeline {
     width: 330px;
-    position: absolute;
-    left: 60%;
+    height: 300px;
     color: #ffffff;
-    top: 15%;
+
     animation: slideInRight 1s 0.8s both;
 
     .content {

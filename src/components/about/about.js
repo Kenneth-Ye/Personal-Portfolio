@@ -35,7 +35,7 @@ const About = () => {
                  </p>
                  <a href= {resume} download="Kenneth Ye Resume">Preview Resume</a>
             </div>
-            <div class="timeline">
+            <div className="timeline">
                     <h1 className='timeline-header'>Education</h1>
                     <div class="qualification__content qualification__active" data-content id="education">
                         <div class="qualification__data">

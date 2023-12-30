@@ -21,6 +21,13 @@
 }
 
 .about-page {
+    //position: relative;
+    .timeline {
+        position: absolute;
+        top: 30%;
+        left: 60%;
+    }
+
     .text-zone { 
         position: absolute;
         left: 10%;
