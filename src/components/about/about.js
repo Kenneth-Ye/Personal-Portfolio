@@ -70,6 +70,20 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='stats'>
+                        <div className="statwrap-div">
+                            <span className='stat-title'>5+</span>
+                            <span className='stat-desc'>Years<br/>programming</span>
+                        </div>
+                        <div className="statwrap-div">
+                            <span className='stat-title'>4+</span>
+                            <span className='stat-desc'>Projects<br/>completed</span>
+                        </div>
+                        <div className="statwrap-div">
+                            <span className='stat-title'>2+</span>
+                            <span className='stat-desc'>Certificates<br/>Completed</span>
+                        </div>
+                    </div>
                 </div>
         </div>
     )

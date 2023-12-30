@@ -28,12 +28,12 @@ const Sidebar = () => (
         </nav>
         <ul>
             <li>
-                <a href='https://www.linkedin.com/in/kenneth-ye-9618b3235/'>
+                <a href='https://www.linkedin.com/in/kenneth-ye-9618b3235/' target='_blank'>
                     <FontAwesomeIcon icon={faLinkedin} color="#4d7fc1" size='2x'/>
                 </a>
             </li>
             <li>
-                <a href='https://github.com/Kenneth-Ye'>
+                <a href='https://github.com/Kenneth-Ye' target='_blank'>
                     <FontAwesomeIcon icon={faGithub} color="#4d7fc1" size='2x'/>
                 </a>
             </li>

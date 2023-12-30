@@ -16,7 +16,7 @@
     .timeline-header {
         text-align: center;
         font-family: 'Mulish', sans-serif;
-        font-size: 28px;
+        font-size: 32px;
         transform: translateX(40px);
     }
 
@@ -34,8 +34,9 @@
     }
     
     .qualification__subtitle{
+        font-family: 'Mulish', sans-serif;
         display: inline-block;
-        font-size: 11px;
+        font-size: 10px;
         font-weight: 350;
         color: #5ce9ec;
         margin-bottom: var(--mb-1);
