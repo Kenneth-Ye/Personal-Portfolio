@@ -4,6 +4,7 @@ import './about.scss'
 import resume from '../../assets/files/Kenneth Ye Resume-10.pdf'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Loader from 'react-loaders'
 
 const About = () => {
     const titleArr = "About Me".split("");
@@ -19,6 +20,7 @@ const About = () => {
     }, [])
 
     return (
+        <>
         <div className="container about-page">
             <div className="text-zone">
                  <h1>
@@ -37,33 +39,33 @@ const About = () => {
             </div>
             <div className="timeline">
                     <h1 className='timeline-header'>Education</h1>
-                    <div class="qualification__content qualification__active" data-content id="education">
-                        <div class="qualification__data">
+                    <div className="qualification__content qualification__active" data-content id="education">
+                        <div className="qualification__data">
                             <div className='content'>
-                                <h3 class="qualification__title">High School</h3>
-                                <span class="qualification__subtitle">Port Credit Secondary School</span>
-                                <div class="qualification__calendar">
+                                <h3 className="qualification__title">High School</h3>
+                                <span className="qualification__subtitle">Port Credit Secondary School</span>
+                                <div className="qualification__calendar">
                                     <FontAwesomeIcon icon={faCalendar} className='calender-icon'/>
                                     2017-2023
                                 </div>
                             </div>
 
                             <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
                             </div>
                         </div>
-                        <div class="qualification__data">
+                        <div className="qualification__data">
                             <div className='content'></div>
 
                             <div>
-                                <span class="qualification__rounder"></span>
+                                <span className="qualification__rounder"></span>
                             </div>
 
                             <div>
-                                <h3 class="qualification__title">CS Student</h3>
-                                <span class="qualification__subtitle">University of Waterloo</span>
-                                <div class="qualification__calendar">
+                                <h3 className="qualification__title">CS Student</h3>
+                                <span className="qualification__subtitle">University of Waterloo</span>
+                                <div className="qualification__calendar">
                                     <FontAwesomeIcon icon={faCalendar} className='calender-icon'/>
                                     2023-2028
                                 </div>
@@ -86,6 +88,8 @@ const About = () => {
                     </div>
                 </div>
         </div>
+        <Loader type="line-scale-pulse-out" />
+        </>
     )
 }
 export default About; 

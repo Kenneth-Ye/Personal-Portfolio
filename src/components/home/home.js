@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import {useState, useEffect} from 'react';
 import './home.scss';
 import AnimatedLetters from '../animateLetters/animateLetters.js';
+import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -33,6 +34,7 @@ const Home = () => {
 
 
     return (
+        <>
         <div className="container home-page">
             <div className="desc">
                 <h1>
@@ -42,13 +44,15 @@ const Home = () => {
                     {description}
                 </h2>
                 <div className="typewriter-container">
-                    <span class="text first-text">and I'm a </span>
-                    <span class="text sec-text">{text}</span>
+                    <span className="text first-text">and I'm a </span>
+                    <span className="text sec-text">{text}</span>
                 </div>
                 <p>(try hovering over title)</p>
                 <Link to="/Personal-Portfolio/contact" className="contact-link">Contact Me</Link>
             </div>
         </div>
+        <Loader type="line-scale-pulse-out" />
+        </>
     )
 }
 
