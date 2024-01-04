@@ -1,0 +1,25 @@
+.contact-page {
+    color: #ffffff;
+    
+    .text-zone {
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        animation: pulseIn;
+        animation-delay: 1.2s;
+
+        h1 {
+            font-size: 53px;
+                font-family: 'Coolvetica';
+                color: #ffffff;
+                font-weight: 400;
+                margin-top: 0;
+                position: relative;
+                margin-bottom: 20px;
+                left: 10px;
+                animation: pulse 1s;
+                animation-delay: 0.8s;
+        }
+
+    }
+}
