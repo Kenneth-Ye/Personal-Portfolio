@@ -24,6 +24,27 @@ const Contact = () => {
                 <h1>
                     <AnimatedLetters strArray={strArray} letterClass={letterClass} idx={12}/>
                 </h1>
+                <div className="contact-form">
+                    <form>
+                        <ul>
+                            <li className='half'>
+                                <input type="text" name="name" placeholder='Name' required/>
+                            </li>
+                            <li className='half'>
+                                <input type="email" name="email" placeholder='Email' required/>
+                            </li>
+                            <li className='half'>
+                                <input type="text" name="subject" placeholder='Subject' required/>
+                            </li>
+                            <li className='half'>
+                                <textarea name="subject" placeholder='Message' required/>
+                            </li>
+                            <li className='half'>
+                                <input type="submit" className='flat-button' value="SEND"/>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
             </div>
         </div>
         <Loader type="line-scale-pulse-out"/>
