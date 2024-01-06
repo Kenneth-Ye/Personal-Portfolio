@@ -1,25 +1,99 @@
 .contact-page {
     color: #ffffff;
-    
+
     .text-zone {
         position: absolute;
         top: 25%;
         left: 10%;
         animation: pulseIn;
         animation-delay: 1.2s;
+    }
 
-        h1 {
-            font-size: 53px;
-                font-family: 'Coolvetica';
-                color: #ffffff;
-                font-weight: 400;
-                margin-top: 0;
-                position: relative;
-                margin-bottom: 20px;
-                left: 10px;
-                animation: pulse 1s;
-                animation-delay: 0.8s;
+    h1 {
+        font-size: 53px;
+            font-family: 'Coolvetica';
+            color: #ffffff;
+            font-weight: 400;
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 20px;
+            left: 10px;
+            animation: pulse 1s;
+            animation-delay: 0.8s;
+    }
+}
+
+.contact-form {
+    width: 150%;
+    margin-top: 20px;
+    
+    ul {
+        padding: 0;
+        margin: 0;
+        
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
         }
 
+        li.half {
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    input[type='text'],
+    input[type='email'] {
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #ffffff;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    textarea {
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #ffffff;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+    }
+
+
+    .flat-button {
+        color:#ffffff;
+        border: 2px solid #ffffff;
+        background: #3c5b79;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 8px 60px;
+        letter-spacing: 3px;
+        width: 50%;
+
+        &:hover{
+            background: #ffffff;
+            color: #3c5b79;
+        }
     }
 }
