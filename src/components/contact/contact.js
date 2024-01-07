@@ -8,7 +8,7 @@ import emailjs from '@emailjs/browser'
 const Contact = () => {
     const strArray = "Contact Me".split("");
     const [letterClass, setLetterClass] = useState('text-animate');
-    const refForm = useRef()
+    const form = useRef()
 
     useEffect(() => {
         const timeout =  setTimeout(() => {
@@ -22,14 +22,15 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault()
         emailjs.sendForm(
-            process.env.REACT_ENV_YOUR_SERVICE_ID,
-            process.env.REACT_ENV_YOUR_TEMPLATE_ID,
-            refForm.current,
-            process.env.REACT_ENV_YOUR_KEY
+            'service_v2titxq',
+            'template_irqsyec',
+            form.current,
+            '6FAZP9XdOStMVn4Zd'
         )
         .then(
             () => {
                 alert('Message sent succesfully!')
+                window.location.reload(false)
             },
             () => {
                 alert('Failed to send message, please try again.')
@@ -45,7 +46,7 @@ const Contact = () => {
                     <AnimatedLetters strArray={strArray} letterClass={letterClass} idx={12}/>
                 </h1>
                 <div className="contact-form">
-                    <form ref={refForm} onSubmit={sendEmail}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <ul>
                             <li className='half'>
                                 <input type="text" name="name" placeholder='Name' required/>
