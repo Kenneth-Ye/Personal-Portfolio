@@ -1,7 +1,7 @@
 import AnimatedLetters from '../animateLetters/animateLetters';
 import { useState, useEffect } from 'react';
 import './about.scss'
-import resume from '../../assets/files/Kenneth Ye Resume-10.pdf'
+import resume from '../../assets/files/Kenneth_Ye_Resume.pdf'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Loader from 'react-loaders'

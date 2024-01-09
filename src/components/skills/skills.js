@@ -34,7 +34,7 @@ const Skills = () => {
                 I've completed the FreeCodeCamp's certification in JavaScript Data Structures and Algorithms, which 
                 covered basic data structures, algorithm scripting, regular expressions, ES6 JavaScript, 
                 object-oriented programming, and functional programming. Additionally, I completed the NDG Linux Unhatched certification.
-                I'm also familiar with Jav, C++ and Python, allowing me to support various aspects of development projects.
+                I'm also familiar with Java, C++ and Python, allowing me to support various aspects of development projects.
                 </p>
                 <div className="techstack">
                     <p className='tech-title'>Tech Stack</p>
