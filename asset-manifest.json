@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.0e5f52e2.css",
-    "main.js": "/Personal-Portfolio/static/js/main.6750d1c0.js",
+    "main.css": "/Personal-Portfolio/static/css/main.33c8f89d.css",
+    "main.js": "/Personal-Portfolio/static/js/main.e2c34df7.js",
     "static/js/787.ed937df2.chunk.js": "/Personal-Portfolio/static/js/787.ed937df2.chunk.js",
+    "static/media/homeimage2.jpg": "/Personal-Portfolio/static/media/homeimage2.26b89dbf06a45dd2c004.jpg",
     "static/media/k-logo-transbg.png": "/Personal-Portfolio/static/media/k-logo-transbg.a687303b292b4b875bec.png",
     "static/media/Mulish-Regular.ttf": "/Personal-Portfolio/static/media/Mulish-Regular.d3d302e1573fb1c8db5b.ttf",
     "static/media/Kenneth_Ye_Resume.pdf": "/Personal-Portfolio/static/media/Kenneth_Ye_Resume.3a73fa2589fed30bce46.pdf",
@@ -10,12 +11,12 @@
     "static/media/helvetica-neu.ttf": "/Personal-Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/CoolveticaRg-Regular.woff2": "/Personal-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.0e5f52e2.css.map": "/Personal-Portfolio/static/css/main.0e5f52e2.css.map",
-    "main.6750d1c0.js.map": "/Personal-Portfolio/static/js/main.6750d1c0.js.map",
+    "main.33c8f89d.css.map": "/Personal-Portfolio/static/css/main.33c8f89d.css.map",
+    "main.e2c34df7.js.map": "/Personal-Portfolio/static/js/main.e2c34df7.js.map",
     "787.ed937df2.chunk.js.map": "/Personal-Portfolio/static/js/787.ed937df2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e5f52e2.css",
-    "static/js/main.6750d1c0.js"
+    "static/css/main.33c8f89d.css",
+    "static/js/main.e2c34df7.js"
   ]
 }
