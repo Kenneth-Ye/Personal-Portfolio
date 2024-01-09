@@ -1,0 +1,114 @@
+.image-carousel {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Arial', sans-serif; 
+  }
+
+
+
+  .prevbutton {
+    position: absolute;
+    left: 24%;
+    top: 50%
+  }
+
+  .nextbutton {
+    position: absolute;
+    right: 24%;
+    top: 50%
+  }
+  
+  .image-container {
+    text-align: center;
+    max-width: 40%; /* Adjust as per your design */
+    height: auto;
+    margin: auto;
+
+    p {
+        margin-bottom: 20px;
+    }
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: if you want rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: for shadow effect */
+  }
+  
+  .image-container p {
+    margin-top: 16px;
+    color: #fff; /* Assuming a dark theme from your example */
+    font-size: 1.2em;
+  }
+  
+  button {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  button[disabled] {
+    opacity: 1;
+  }
+  
+  button.prev {
+    left: 32px;
+  }
+  
+  button.next {
+    right: 32px;
+  }
+  
+  .demo-button {
+    background-color: #6200ea; /* Use a color that matches your design */
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .demo-button:hover {
+    background-color: #3700b3;
+  }
+  
+  .demo-button:active {
+    transform: scale(0.98);
+  }
+
+  .repobutton {
+        font-family: "Mulish", sans-serif;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 2px solid #ffffff;
+        margin-top: 27px;
+        white-space: nowrap;
+
+        &:hover{
+            background: #ffffff;
+            color: #3c5b79;
+        }
+  }
