@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react';
 import './home.scss';
 import AnimatedLetters from '../animateLetters/animateLetters.js';
 import Loader from 'react-loaders';
+import image from '../../assets/images/homeimage2.jpg';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -49,6 +50,9 @@ const Home = () => {
                 </div>
                 <p>(try hovering over title)</p>
                 <Link to="/Personal-Portfolio/contact" className="contact-link">Contact Me</Link>
+            </div>
+            <div className="image-container">
+                <img className="image" src={image} alt=""/>
             </div>
         </div>
         <Loader type="line-scale-pulse-out" />
