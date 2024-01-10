@@ -58,7 +58,9 @@
             }
         }
 
-        li
+        input::placeholder, textarea::placeholder{
+            font-family: 'Mulish', sans-serif;
+        }
 
         .button {
             border-radius: 0;
