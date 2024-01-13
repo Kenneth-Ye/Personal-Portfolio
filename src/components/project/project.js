@@ -27,9 +27,12 @@ const Project = () => {
         {
             url: portfolioproj,
             description: 'A personal webpage made using React and SASS. Implemented React Router to route between pages based on URL'
-                         +'Includes animations, swiping image carousel, and a contact box.'
-                         +'Made consistent commits to webpage via Git/Github and hosted website on Github Pages',
+                         +' Includes animations, swiping image carousel, and a contact box.'
+                         +' Made consistent commits to webpage via Git/Github and hosted website on Github Pages',
             link: 'https://github.com/Kenneth-Ye/Personal-Portfolio'
+        },
+        {
+            url: 
         }
     ]
 
