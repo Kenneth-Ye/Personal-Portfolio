@@ -3,9 +3,10 @@ import Loader from 'react-loaders';
 import AnimatedLetters from '../animateLetters/animateLetters';
 import { useEffect, useState} from 'react';
 import ImageCarousel from './imagecarousel';
-import ahoproj from '../../assets/images/ahoproj.png'
-import blackjackproj from '../../assets/images/blackjackproj.png'
-import portfolioproj from '../../assets/images/portfolioproj.png'
+import ahoproj from '../../assets/images/ahoproj.png';
+import blackjackproj from '../../assets/images/blackjackproj.png';
+import portfolioproj from '../../assets/images/portfolioproj.png';
+import gptProj from '../../assets/images/gptProj.png';
 
 const Project = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -32,7 +33,12 @@ const Project = () => {
             link: 'https://github.com/Kenneth-Ye/Personal-Portfolio'
         },
         {
-            url: 
+            url: gptProj,
+            description: 'Built a GPT clone using React with added accessibility features such as text-to-speech support and high '
+                         + 'contrast mode, making ChatGPT more accessible to the visually impaired. Implemented an Express.js backend'
+                         + ' and developed a RESTful API to communicate from the frontend to backend. Developed text-to-speech capabilities' 
+                         + ' by leveraging OpenAI’s text-to-speech API',
+            link: 'https://github.com/Kenneth-Ye/accessibleGPT'
         }
     ]
 
