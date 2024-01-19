@@ -20,11 +20,11 @@ const Project = () => {
                         +'the FSM and create an animation of how the algorithm searches through the FSM.', 
             link: "https://github.com/Kenneth-Ye/AhoCorasick-Algorithm-Visualizer/tree/master"
         },
-        {
-            url: blackjackproj,
-            description: 'A GUI Blackjack game coded using Java. Designed and implemented using Object Oriented programming.',
-            link: "https://github.com/Kenneth-Ye/BlackJack_GUI_Game"
-        },
+        // {
+        //     url: blackjackproj,
+        //     description: 'A GUI Blackjack game coded using Java. Designed and implemented using Object Oriented programming.',
+        //     link: "https://github.com/Kenneth-Ye/BlackJack_GUI_Game"
+        // },
         {
             url: portfolioproj,
             description: 'A personal webpage made using React and SASS. Implemented React Router to route between pages based on URL'

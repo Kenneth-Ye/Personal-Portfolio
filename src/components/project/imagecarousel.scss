@@ -24,7 +24,7 @@
   
   .image-container {
     text-align: center;
-    max-width: 40%; /* Adjust as per your design */
+    max-width: 40%; 
     height: auto;
     margin: auto;
 
@@ -36,8 +36,9 @@
   .image-container img {
     width: 100%;
     height: auto;
-    border-radius: 10px; /* Optional: if you want rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: for shadow effect */
+    max-height: 40vh;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
   
   .image-container p {
