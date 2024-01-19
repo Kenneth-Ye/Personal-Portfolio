@@ -51,7 +51,7 @@ const Home = () => {
                 <p>(try hovering over title)</p>
                 <Link to="/Personal-Portfolio/contact" className="contact-link">Contact Me</Link>
             </div>
-            <div className="image-container">
+            <div className="kenny-image-container">
                 <img className="image" src={image} alt=""/>
             </div>
         </div>
