@@ -27,7 +27,7 @@ const Skills = () => {
                 </h1>
                 <p className='skill-desc'>
                 I have a strong background in front-end development with React, HTML, CSS, D3.js, and I'm experienced with using 
-                Git and Sass for version control and styling. My experience includes four main projects, with three featuring 
+                Git and Sass for version control and styling. Additionally, I have experience using Express.js and OpenAI GPT and TTS API My experience includes four main projects, with three featuring 
                 React web apps. 
                 </p>
                 <p>
