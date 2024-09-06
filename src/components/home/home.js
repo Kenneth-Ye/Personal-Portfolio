@@ -8,7 +8,7 @@ import image from '../../assets/images/homeimage2.jpg';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const introduction = "Hi, I'm Kenneth Ye";
-    const description = "I'm a passionate second year computer science student @ University of Waterloo,";
+    const description = "I'm a passionate second-year computer science student @ University of Waterloo,";
     const introArray = introduction.split("");
     
     useEffect(() => {
