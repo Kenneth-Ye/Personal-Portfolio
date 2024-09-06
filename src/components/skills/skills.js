@@ -26,15 +26,10 @@ const Skills = () => {
                     <AnimatedLetters strArray={strArray} letterClass={letterClass} idx={12}></AnimatedLetters>
                 </h1>
                 <p className='skill-desc'>
-                I have a strong background in front-end development with React, HTML, CSS, D3.js, and I'm experienced with using 
-                Git and Sass for version control and styling. Additionally, I have experience using Express.js and OpenAI GPT and TTS API My experience includes four main projects, with three featuring 
-                React web apps. 
+                    I have a strong background in full-stack development, with expertise in JavaScript, TypeScript, React, Node.js, and Python. My experience includes working with frameworks and tools such as Express, Django, Docker, MongoDB, MySQL, and PostgreSQL. I've applied these skills in professional settings at ITech Consulting and Chemsyn, developing ERP systems and automation tools that significantly improved operational efficiency.
                 </p>
                 <p>
-                I've completed the FreeCodeCamp's certification in JavaScript Data Structures and Algorithms, which 
-                covered basic data structures, algorithm scripting, regular expressions, ES6 JavaScript, 
-                object-oriented programming, and functional programming. Additionally, I completed the NDG Linux Unhatched certification.
-                I'm also familiar with Java, C++ and Python, allowing me to support various aspects of development projects.
+                    My project portfolio showcases diverse applications of my skills, including blockchain technology (ChariTree), AI-driven applications (AccessibleGPT), and algorithm visualization (Aho-Corasick Algorithm Visualizer). Additionally, my academic background in Computer Science at the University of Waterloo, where I maintain a 3.94 GPA, provides a solid theoretical foundation that complements my practical experience.
                 </p>
                 <div className="techstack">
                     <p className='tech-title'>Tech Stack</p>
