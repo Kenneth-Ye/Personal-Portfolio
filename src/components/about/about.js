@@ -27,7 +27,7 @@ const About = () => {
                     <AnimatedLetters letterClass={letterClass} idx={12} strArray={titleArr}/>
                  </h1>
                  <p>
-                    As a first-year computer science student, I'm passionate about using technology to create impactful software. 
+                    As a second-year computer science student, I'm passionate about using technology to create impactful software. 
                     My skills span various programming languages, and I'm always seeking opportunities to apply my knowledge 
                     in the tech sector. Driven by the potential of technology to advance society, I'm eager to join projects that 
                     are at the forefront of innovation.
@@ -60,6 +60,7 @@ const About = () => {
 
                             <div>
                                 <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
                             </div>
 
                             <div>
@@ -71,8 +72,43 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="qualification__data">
+                            <div className='content'>
+                            <h3 className="qualification__title">Full Stack Developer</h3>
+                            <span className="qualification__subtitle">IDI-Itech Devlopment</span>
+                            <div className="qualification__calendar">
+                                <FontAwesomeIcon icon={faCalendar} className='calender-icon'/>
+                                2024
+                            </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className='qualification__line'></span>
+                            </div>
+                        </div>
+                        <div className="qualification__data">
+                            <div className='content'></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">Freelance Full Stack Developer</h3>
+                                <span className="qualification__subtitle">Chemsyn</span>
+                                <div className="qualification__calendar">
+                                    <FontAwesomeIcon icon={faCalendar} className='calender-icon'/>
+                                    2024
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className='stats'>
+                        <div className="statwrap-div">
+                            <span className='stat-title'>2+</span>
+                            <span className='stat-desc'>Internships<br/>Completed</span>
+                        </div>
                         <div className="statwrap-div">
                             <span className='stat-title'>5+</span>
                             <span className='stat-desc'>Years<br/>programming</span>
@@ -80,10 +116,6 @@ const About = () => {
                         <div className="statwrap-div">
                             <span className='stat-title'>4+</span>
                             <span className='stat-desc'>Projects<br/>completed</span>
-                        </div>
-                        <div className="statwrap-div">
-                            <span className='stat-title'>2+</span>
-                            <span className='stat-desc'>Certificates<br/>Completed</span>
                         </div>
                     </div>
                 </div>
