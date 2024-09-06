@@ -4,8 +4,8 @@ import AnimatedLetters from '../animateLetters/animateLetters';
 import { useEffect, useState} from 'react';
 import ImageCarousel from './imagecarousel';
 import ahoproj from '../../assets/images/ahoproj.png';
-import blackjackproj from '../../assets/images/blackjackproj.png';
 import portfolioproj from '../../assets/images/portfolioproj.png';
+import charitreeproj from '../../assets/images/charitreeproj.png';
 import gptProj from '../../assets/images/gptProj.png';
 
 const Project = () => {
@@ -39,7 +39,17 @@ const Project = () => {
                          + ' and developed a RESTful API to communicate from the frontend to backend. Developed text-to-speech capabilities' 
                          + ' by leveraging OpenAI’s text-to-speech API',
             link: 'https://github.com/Kenneth-Ye/accessibleGPT'
-        }
+        },
+        {
+            url: charitreeproj,
+            description: 'A blockchain-based donation platform that increases transparency in charitable giving.' + 
+                        'Allows users to view all transactions for each charity, including their own donations, ' + 
+                        'through smart contracts. Utilizes React and Django for the frontend and backend, with ' +
+                        'PostgreSQL for data storage. Implements Solidity smart contracts on the Avalanche ' + 
+                        'blockchain to ensure donation traceability and prevent fraudulent behavior.',
+            link: 'https://github.com/Kenneth-Ye/ChariTree'
+        }   
+
     ]
 
     useEffect(() => {
